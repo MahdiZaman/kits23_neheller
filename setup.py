@@ -17,7 +17,9 @@ setup(
         'argparse',
         'tqdm',
         "pytest",
-        'Surface-Distance-Based-Measures @ git+https://github.com/deepmind/surface-distance.git',
+        # 'Surface-Distance-Based-Measures @ git+https://github.com/deepmind/surface-distance.git',    # Issues with surface-distance-based-measures. installing this manually
+        # git clone https://github.com/deepmind/surface-distance.git
+        # pip install surface-distance/
         'SimpleITK',
         "batchgenerators"
     ],
